@@ -28,7 +28,7 @@ body.dark .navbar.activar {
 }
 
 body.dark .logo span {
-  color: var(--white);
+  color: rgb(4, 227, 251);
 }
 
 body.dark .navbar a {

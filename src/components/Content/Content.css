@@ -74,7 +74,7 @@
   background: #333;
 }
 .wrapper .button:nth-child(3):hover .icon {
-  background: #e1306c;
+  background: #4fc35b;
 }
 .wrapper .button:nth-child(4):hover .icon {
   background: #4fc35b;
@@ -102,7 +102,7 @@
   background-color: #333;
 }
 .wrapper .button:nth-child(3):hover {
-  background-color: #e1306c;
+  background-color: #4fc35b;
 }
 .wrapper .button:nth-child(4):hover {
   background-color: #4fc35b;
