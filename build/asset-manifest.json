@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Porfolio/build/static/css/main.bde36900.css",
+    "main.js": "/Porfolio/build/static/js/main.8ca00402.js",
+    "static/js/453.7d1ffe6d.chunk.js": "/Porfolio/build/static/js/453.7d1ffe6d.chunk.js",
+    "static/media/Thumbs.db": "/Porfolio/build/static/media/Thumbs.735170b30af6b4c4247f.db",
+    "static/media/proyecto-17-com.png": "/Porfolio/build/static/media/proyecto-17-com.3db6c29f382d2aa3d477.png",
+    "static/media/proyecto-app-18.png": "/Porfolio/build/static/media/proyecto-app-18.0c884a2600b586b37239.png",
+    "static/media/inicio.png": "/Porfolio/build/static/media/inicio.9e191e0f2820064e6d28.png",
+    "static/media/home.jpg": "/Porfolio/build/static/media/home.87b43924d54846fd27d0.jpg",
+    "static/media/portfolio.png": "/Porfolio/build/static/media/portfolio.c56c3007d23fed4ccebd.png",
+    "static/media/proyecto-pizarras.png": "/Porfolio/build/static/media/proyecto-pizarras.a451639eab7810c60e18.png",
+    "static/media/cv.pdf": "/Porfolio/build/static/media/cv.9e8a4ece7c540ba1ade4.pdf",
+    "static/media/proyecto-pizarras-com.png": "/Porfolio/build/static/media/proyecto-pizarras-com.5c85313f70f43f8ce775.png",
+    "index.html": "/Porfolio/build/index.html",
+    "main.bde36900.css.map": "/Porfolio/build/static/css/main.bde36900.css.map",
+    "main.8ca00402.js.map": "/Porfolio/build/static/js/main.8ca00402.js.map",
+    "453.7d1ffe6d.chunk.js.map": "/Porfolio/build/static/js/453.7d1ffe6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bde36900.css",
+    "static/js/main.8ca00402.js"
+  ]
+}
