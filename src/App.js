@@ -26,8 +26,8 @@ function App() {
       {loading ? (
         <div className="loading-pag">
           <div className="loader">
-            <span>(Kenibeck)</span>
-            <span>(Kenibeck)</span>
+            <span>Kenibeck</span>
+            <span>Kenibeck</span>
           </div>
         </div>
       ) : (

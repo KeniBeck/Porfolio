@@ -40,7 +40,7 @@ const Header = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          (<span>Kenibeck</span>)
+          <span>Kenibeck</span>
         </p>
       </NavLink>
 

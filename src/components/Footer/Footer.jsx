@@ -15,7 +15,7 @@ const Footer = () => {
           <p>
             <FormattedMessage
               id="footer-info"
-              defaultMessage="Page created by Nahuel61920"
+              defaultMessage="Page created by Kenibeck"
             />
           </p>
           <p>&copy; {fecha}. All Rights Reserved.</p>
@@ -36,7 +36,7 @@ const Footer = () => {
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5493815360966"
+            href="https://api.whatsapp.com/send?phone=573232873531"
             target="_blank"
             rel="noopener noreferrer"
           >
