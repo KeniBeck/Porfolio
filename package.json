@@ -1,7 +1,7 @@
 {
   "name": "portafolio",
   "version": "1.5.0",
-  "homepage": "https://kenibeck.github.io/Porfolio/build",
+  "homepage": "https://kenibeck.github.io/Porfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
