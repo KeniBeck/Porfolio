@@ -94,6 +94,14 @@ const About = () => (
           </div>
           <div>
             <img
+              alt="nextjs"
+              className="icons-skils"
+              src="https://cdn.icon-icons.com/icons2/3392/PNG/512/nextjs_icon_213852.png"
+            />
+            <h5>NextJS</h5>
+          </div>
+          <div>
+            <img
               alt="Js"
               className="icons-skils"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
@@ -110,11 +118,11 @@ const About = () => (
           </div>
           <div>
             <img
-              alt="jQuery"
+              alt="tailwind"
               className="icons-skils"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg"
+              src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png"
             />
-            <h5>jQuery</h5>
+            <h5>Tailwind</h5>
           </div>
           <div>
             <img
@@ -153,6 +161,22 @@ const About = () => (
           </div>
           <div>
             <img
+              alt="nestjs"
+              className="icons-skils"
+              src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_nestjs_icon_130355.png"
+            />
+            <h5>NestJS</h5>
+          </div>
+          <div>
+            <img
+              alt="java"
+              className="icons-skils"
+              src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png"
+            />
+            <h5>Java</h5>
+          </div>
+          <div>
+            <img
               alt="mysql"
               className="icons-skils"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
@@ -175,7 +199,16 @@ const About = () => (
             />
             <h5>MongodDB</h5>
           </div>
+          <div>
+            <img
+              alt="cassandra"
+              className="icons-skils"
+              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/apache_cassandra_logo_icon_170572.png"
+            />
+            <h5>Cassandra</h5>
+          </div>
         </div>
+
         <h4>
           <FormattedMessage id="tools" defaultMessage="Tools" />
         </h4>
@@ -206,6 +239,15 @@ const About = () => (
               title="git"
             />
             <h5>Git</h5>
+          </div>
+          <div>
+            <img
+              src="https://cdn.icon-icons.com/icons2/1381/PNG/512/jetbrainstoolbox_93803.png"
+              alt="jetbrains"
+              title="jetbrains"
+              className="icons-skils"
+            />
+            <h5>Jetbrains</h5>
           </div>
         </div>
       </div>

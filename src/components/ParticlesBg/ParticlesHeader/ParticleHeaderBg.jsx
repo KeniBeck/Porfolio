@@ -156,7 +156,7 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
+                  src: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_tailwind_icon_130128.png",
                   width: 20,
                   height: 20,
                 },
@@ -209,11 +209,6 @@ export default function ParticleHeaderBg() {
                 },
                 {
                   src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
-                  width: 20,
-                  height: 20,
-                },
-                {
-                  src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg",
                   width: 20,
                   height: 20,
                 },
