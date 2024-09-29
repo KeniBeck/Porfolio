@@ -62,7 +62,7 @@ body.dark .skill h5 {
 }
 
 body.dark main section .row .columns .skill img {
-  filter: grayscale(100%);
+  filter: grayscale(10%);
 }
 
 body.dark main section .row .columns .skill img:hover {
@@ -163,7 +163,7 @@ body.dark .sobre-mi-info p {
 /********************** Skill seccion **********************/
 
 body.dark .skills-img {
-  filter: grayscale(100%);
+  filter: grayscale(10%);
 }
 
 body.dark .skill-card:hover .skills-img {
