@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.bde36900.css",
-    "main.js": "/Porfolio/static/js/main.d57484d2.js",
+    "main.css": "/Porfolio/static/css/main.8cb7c795.css",
+    "main.js": "/Porfolio/static/js/main.076bba37.js",
     "static/js/453.7d1ffe6d.chunk.js": "/Porfolio/static/js/453.7d1ffe6d.chunk.js",
     "static/media/Thumbs.db": "/Porfolio/static/media/Thumbs.735170b30af6b4c4247f.db",
     "static/media/proyecto-17-com.png": "/Porfolio/static/media/proyecto-17-com.3db6c29f382d2aa3d477.png",
@@ -10,15 +10,15 @@
     "static/media/home.jpg": "/Porfolio/static/media/home.87b43924d54846fd27d0.jpg",
     "static/media/portfolio.png": "/Porfolio/static/media/portfolio.c56c3007d23fed4ccebd.png",
     "static/media/proyecto-pizarras.png": "/Porfolio/static/media/proyecto-pizarras.a451639eab7810c60e18.png",
-    "static/media/cv.pdf": "/Porfolio/static/media/cv.9e8a4ece7c540ba1ade4.pdf",
+    "static/media/cv.pdf": "/Porfolio/static/media/cv.c515894be5f7d70fab30.pdf",
     "static/media/proyecto-pizarras-com.png": "/Porfolio/static/media/proyecto-pizarras-com.5c85313f70f43f8ce775.png",
     "index.html": "/Porfolio/index.html",
-    "main.bde36900.css.map": "/Porfolio/static/css/main.bde36900.css.map",
-    "main.d57484d2.js.map": "/Porfolio/static/js/main.d57484d2.js.map",
+    "main.8cb7c795.css.map": "/Porfolio/static/css/main.8cb7c795.css.map",
+    "main.076bba37.js.map": "/Porfolio/static/js/main.076bba37.js.map",
     "453.7d1ffe6d.chunk.js.map": "/Porfolio/static/js/453.7d1ffe6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bde36900.css",
-    "static/js/main.d57484d2.js"
+    "static/css/main.8cb7c795.css",
+    "static/js/main.076bba37.js"
   ]
 }
