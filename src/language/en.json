@@ -45,11 +45,12 @@
   "about-skills-2": "More than a year of work experience in this language, I use it daily to develop web designs and interfaces.",
   "about-skills-3": "A year of experience using it in the front-end and back-end branch, allowed me to familiarize myself with the language, and include it in my work projects.",
   "about-skills-4": "One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code.",
-  "about-skills-5": "Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.",
+  "about-skills-5": "More than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.",
   "about-skills-6": "A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most.",
   "about-skills-7": "More than a year using this JavaScript framework, carrying out multiple personal and work projects.",
   "about-skills-8": "It is the cross-platform runtime environment that I use to make my web applications scalable.",
   "about-skills-9": "It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.",
+  "about-skills-fx-1": "A year of experience using it in the back-end branch, allowed me to familiarize myself with the language, and include it in my work projects.",
 
   "services-price": "Price",
   "services-info-title-1": "Essential",
@@ -86,5 +87,7 @@
   "projects-info-17-p1": "Tecos, Mexican restaurant page.",
   "projects-info-17-p2": "Attractive restaurant page with shift management, billing management and sales management",
   "projects-info-14-p1": "Blackboards, lottery ticket sales page",
-  "projects-info-14-p2": "Lottery ticket sales page with sales management and ticket generation in PDF, the logic is handled in the sales draw in range in weeks."
+  "projects-info-14-p2": "Lottery ticket sales page with sales management and ticket generation in PDF, the logic is handled in the sales draw in range in weeks.",
+  "projects-info-fx-p1":"FX.KILLERS-Traders",
+  "projects-info-fx-p2":"FX.KILLERS-Traders is a web portal designed for individuals offering their services through various plans. Built primarily with TypeScript (87.8%), CSS (7.3%), JavaScript (4.2%), and HTML (0.7%), it provides a modern and responsive interface. The project utilizes React and Vite for a fast and efficient development experience. This portal allows service providers to easily manage and showcase their offerings to potential clients."
 }

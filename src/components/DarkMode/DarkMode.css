@@ -71,11 +71,13 @@ body.dark main section .row .columns .skill img:hover {
 /**********************Iconos **********************/
 
 .dark .icons-skils.nextjs,
-.dark .icons-skils.express{
+.dark .icons-skils.express {
   background-color: white;
   border-radius: 50%;
   padding: 2px;
 }
+
+
 
 /********************** Servicios **********************/
 
@@ -170,8 +172,10 @@ body.dark .sobre-mi-info p {
 
 /********************** Skill seccion **********************/
 
-body.dark .skills-img {
-  filter: grayscale(10%);
+body.dark .skills-img.express{
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 body.dark .skill-card:hover .skills-img {
