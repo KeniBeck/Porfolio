@@ -86,6 +86,35 @@ const Project = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="caja">
+            <img src={proyectImg(`./fxkillers-p-1.png`)} alt="proyectos" />
+            <div className="content">
+              <h3>FxKillers</h3>
+              <p>wed services</p>
+              <p className="tecnologias">
+                React
+                <span> -</span> Vite
+                <span> -</span> Tailwind
+                <span> -</span> TypeScript
+                <span> -</span> NodeJS
+              </p>
+              <a href="https://www.fxkillers.mx/"
+                  className="custom-btn btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                <span>Demo</span>
+              </a>
+              <a href="https://github.com/fxkiller-wed/fxkiller"
+                  className="custom-btn btn-codigo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                Repository
+              </a>
+            </div>
+
+          </SwiperSlide>
+          <SwiperSlide className="caja">
             <img src={proyectImg(`./proyecto-pizarras.png`)} alt="proyectos" />
             <div className="content">
               <h3>Pizarras</h3>
