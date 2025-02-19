@@ -68,6 +68,14 @@ body.dark main section .row .columns .skill img {
 body.dark main section .row .columns .skill img:hover {
   filter: grayscale(0);
 }
+/**********************Iconos **********************/
+
+.dark .icons-skils.nextjs,
+.dark .icons-skils.express{
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+}
 
 /********************** Servicios **********************/
 

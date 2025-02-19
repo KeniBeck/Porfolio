@@ -3,6 +3,8 @@ import "../../pages/About/AboutPage.css";
 import { Link } from "react-router-dom";
 import cv from "../../cv/cv.pdf";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
+import expressIcon from "../../img/express-original.svg"; 
+
 
 /* Multi idioma */
 import { FormattedMessage } from "react-intl";
@@ -95,8 +97,8 @@ const About = () => (
           <div>
             <img
               alt="nextjs"
-              className="icons-skils"
-              src="https://cdn.icon-icons.com/icons2/3392/PNG/512/nextjs_icon_213852.png"
+              className="icons-skils nextjs"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/nextjs/nextjs-original.svg"
             />
             <h5>NextJS</h5>
           </div>
@@ -120,7 +122,7 @@ const About = () => (
             <img
               alt="tailwind"
               className="icons-skils"
-              src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/tailwindcss/tailwindcss-original.svg"
             />
             <h5>Tailwind</h5>
           </div>
@@ -147,15 +149,15 @@ const About = () => (
             <img
               alt="Nodejs"
               className="icons-skils"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/nodejs/nodejs-original.svg"
             />
             <h5>NodeJs</h5>
           </div>
           <div>
             <img
               alt="express"
-              className="icons-skils"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              className="icons-skils express"
+              src={expressIcon}
             />
             <h5>Express</h5>
           </div>
@@ -163,7 +165,7 @@ const About = () => (
             <img
               alt="nestjs"
               className="icons-skils"
-              src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_nestjs_icon_130355.png"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/nestjs/nestjs-original.svg"
             />
             <h5>NestJS</h5>
           </div>
@@ -171,7 +173,7 @@ const About = () => (
             <img
               alt="java"
               className="icons-skils"
-              src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/java/java-original-wordmark.svg"
             />
             <h5>Java</h5>
           </div>
@@ -203,7 +205,7 @@ const About = () => (
             <img
               alt="cassandra"
               className="icons-skils"
-              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/apache_cassandra_logo_icon_170572.png"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/cassandra/cassandra-original-wordmark.svg"
             />
             <h5>Cassandra</h5>
           </div>
@@ -242,7 +244,7 @@ const About = () => (
           </div>
           <div>
             <img
-              src="https://cdn.icon-icons.com/icons2/1381/PNG/512/jetbrainstoolbox_93803.png"
+              src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/jetbrains/jetbrains-original.svg"
               alt="jetbrains"
               title="jetbrains"
               className="icons-skils"

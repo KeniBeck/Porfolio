@@ -100,7 +100,7 @@ const Project = () => {
                 <span> -</span> Mysql
               </p>
               <a
-                href="https://pizarras.vercel.app/"
+                href="https://www.sorteotrebol.com/"
                 className="custom-btn btn"
                 target="_blank"
                 rel="noopener noreferrer"
