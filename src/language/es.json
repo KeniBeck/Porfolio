@@ -44,11 +44,12 @@
   "about-skills-2": "Más de un año de experiencia laboral en este lenguaje, lo utilizo diariamente para desarrollar diseños web e interfases.",
   "about-skills-3": "Un año de experiencia usándolo en la rama del front-end y back-end, me permitieron familiarizarme con el lenguaje, e incluirlo en mis proyectos laborales.",
   "about-skills-4": "Un año usando este preprocesador en el ámbito profesional, lo incluyo en mucho de mis proyectos ya que me permite un código mejor estructurado.",
-  "about-skills-5": "Menos de un año utilizando este framework, aun así, lo utilice en incontables proyectos laborales, que me permitieron conocerlo en su mayoría.",
+  "about-skills-5": "Mas de un año utilizando este framework, aun así, lo utilice en incontables proyectos laborales, que me permitieron conocerlo en su mayoría.",
   "about-skills-6": "Un año usando esta librería en el ámbito personal y laboral, es de las librería que más empleo y manipulo.",
   "about-skills-7": "Más de un año utilizando este framework JavaScript, realizando múltiples proyectos personales y laborales.",
   "about-skills-8": "Es el entorno de tiempo de ejecución multiplataforma que utilizo para hacer que mis aplicaciones web sean escalables.",
   "about-skills-9": "Es un framework que utilizo mayormente para poder administrar de la mejor manera mis APIs y mi modelo de ejecución http.",
+  "about-skills-fx-1": "Un año de experiencia usándolo en la rama del back-end, me permitió familiarizarme con el lenguaje, e incluirlo en mis proyectos laborales.",
 
   "services-price": "Precios",
   "services-info-title-1": "Básico",
@@ -86,5 +87,8 @@
   "projects-info-17-p1": "Tecos, pagina de restaurante mexicano",
   "projects-info-17-p2": "pagina de restaurante atractiva con gestion de turnos, gestion de facturacion y gestion ventas ",
   "projects-info-14-p1": "Pizarras,pagina de venta de boletos de loteria ",
-  "projects-info-14-p2": "Pagina de venta de boletos de loteria con gestion de ventas y generacion de boletos en pdf, se maneja la logica en sorteo de venta en rango en semanas."
+  "projects-info-14-p2": "Pagina de venta de boletos de loteria con gestion de ventas y generacion de boletos en pdf, se maneja la logica en sorteo de venta en rango en semanas.",
+  "projects-info-fx-p1": "FX.KILLERS-Traders",
+  "projects-info-fx-p2": "FX.KILLERS-Traders es un portal web diseñado para personas físicas que ofrecen sus servicios a través de diversos planes. Construido principalmente con TypeScript (87,8%), CSS (7,3%), JavaScript (4,2%) y HTML (0,7%), proporciona una interfaz moderna y responsiva. El proyecto utiliza React y Vite para una experiencia de desarrollo rápida y eficiente. Este portal permite a los proveedores de servicios gestionar y mostrar fácilmente sus ofertas a clientes potenciales."
+
 }

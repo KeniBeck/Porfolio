@@ -164,16 +164,16 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <img
-                  alt="Bootstrap"
+                  alt="Tailwind"
                   className="skills-img"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-                  title="Bootstrap"
+                  src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/tailwindcss/tailwindcss-original.svg"
+                  title="Tailwind"
                 />
-                <h2 className="skill-name">Bootstrap</h2>
+                <h2 className="skill-name">Tailwind</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id="about-skills-5"
-                    defaultMessage="Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part."
+                    defaultMessage="More than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part."
                   />
                 </p>
               </div>
@@ -205,7 +205,7 @@ const About = () => {
                   alt="react"
                   className="skills-img"
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  title="jQuery"
+                  title="ReactJs"
                 />
                 <h2 className="skill-name">ReactJs</h2>
                 <p className="skill-info">
@@ -224,7 +224,7 @@ const About = () => {
                   alt="nodejs"
                   className="skills-img"
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                  title="jQuery"
+                  title="NodeJs"
                 />
                 <h2 className="skill-name">NodeJs</h2>
                 <p className="skill-info">
@@ -241,15 +241,34 @@ const About = () => {
               >
                 <img
                   alt="express"
-                  className="skills-img"
+                  className="skills-img express"
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                  title="jQuery"
+                  title="express"
                 />
                 <h2 className="skill-name">Express</h2>
                 <p className="skill-info">
                   <FormattedMessage
                     id="about-skills-9"
                     defaultMessage="It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model."
+                  />
+                </p>
+              </div>
+              <div
+                className="skill-card"
+                data-aos="flip-right"
+                data-aos-delay="300"
+              >
+                <img
+                  alt="Js"
+                  className="skills-img icon-li"
+                  src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons/nestjs/nestjs-original.svg"
+                  title="Java Script"
+                />
+                <h2 className="skill-name">NestJs</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id="about-skills-fx-1"
+                    defaultMessage="A year of experience using it in the back-end branch, allowed me to familiarize myself with the language, and include it in my work projects."
                   />
                 </p>
               </div>

@@ -23,18 +23,6 @@ const Project = () => {
   const [estadoModal17, cambiarEstadoModal17] = useState(false);
   const [estadoModal14, cambiarEstadoModal14] = useState(false);
   const [estadoModal15, cambiarEstadoModal15] = useState(false);
-  const [estadoModal16, cambiarEstadoModal16] = useState(false);
-  const [estadoModal13, cambiarEstadoModal13] = useState(false);
-  const [estadoModal12, cambiarEstadoModal12] = useState(false);
-  const [estadoModal11, cambiarEstadoModal11] = useState(false);
-  const [estadoModal10, cambiarEstadoModal10] = useState(false);
-  const [estadoModal9, cambiarEstadoModal9] = useState(false);
-  const [estadoModal8, cambiarEstadoModal8] = useState(false);
-  const [estadoModal7, cambiarEstadoModal7] = useState(false);
-  const [estadoModal6, cambiarEstadoModal6] = useState(false);
-  const [estadoModal5, cambiarEstadoModal5] = useState(false);
-  const [estadoModal3, cambiarEstadoModal3] = useState(false);
-
   return (
     <div>
       <HeaderPage />
@@ -64,6 +52,11 @@ const Project = () => {
                 alt=""
                 className="projects__img"
               />
+            </a>
+          </div>
+          <div className="projects__item">
+            <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
+              <img src={proyectsImg(`./fxkillers-p-1.png`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
@@ -112,11 +105,12 @@ const Project = () => {
                 </span>
                 <div className="eins-modal-tec">
                   <img
-                    src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/tailwindcss/tailwindcss-original.svg"
                     alt=""
                   />
                   <img
-                    src="https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg"
+                  className="icon-nextjs"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/nextjs/nextjs-original.svg"
                     alt=""
                   />
                   <img
@@ -124,7 +118,7 @@ const Project = () => {
                     alt=""
                   />
                   <img
-                    src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/react/react-original.svg"
                     alt=""
                   />
                 </div>
@@ -142,7 +136,7 @@ const Project = () => {
             </div>
             <div className="eins-modal-text">
               <p>
-                <FormattedMessage id="projects-info-14-p1" defaultMessage="" />
+                <FormattedMessage id="projects-info-14-p1" defaultMessage="Loterry Trebol" />
               </p>
               <p>
                 <FormattedMessage
@@ -152,8 +146,8 @@ const Project = () => {
               </p>
               <div className="eins-modal-text-2">
                 <span>Link:</span>{" "}
-                <a href="https://pizarras.vercel.app/" target="_blank">
-                  pizarras.vercel.app/
+                <a href="https://www.sorteotrebol.com/" target="_blank">
+                sorteotrebol.com
                 </a>
               </div>
               <div className="eins-modal-text-3">
@@ -165,11 +159,12 @@ const Project = () => {
                 </span>
                 <div className="eins-modal-tec">
                   <img
-                    src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/tailwindcss/tailwindcss-original.svg"
                     alt=""
                   />
                   <img
-                    src="https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg"
+                  className="icon-nextjs"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/nextjs/nextjs-original.svg"
                     alt=""
                   />
                   <img
@@ -177,7 +172,65 @@ const Project = () => {
                     alt=""
                   />
                   <img
-                    src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/react/react-original.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Modal>
+
+      <Modal estado={estadoModal15} cambiarEstado={cambiarEstadoModal15}>
+        <div className="content-modal">
+          <div className="pw-content">
+            <div className="eins-modal-preview">
+              <img src={proyectsImg(`./fxkillers-p-1.png`)} alt="" />
+            </div>
+            <div className="eins-modal-text">
+              <p>
+                <FormattedMessage id="projects-info-fx-p1" defaultMessage="FX.KILLERS-Traders" />
+              </p>
+              <p>
+                <FormattedMessage
+                  id="projects-info-fx-p2"
+                  defaultMessage="FX.KILLERS-Traders is a web portal designed for individuals offering their services through various plans. Built primarily with TypeScript (87.8%), CSS (7.3%), JavaScript (4.2%), and HTML (0.7%), it provides a modern and responsive interface. The project utilizes React and Vite for a fast and efficient development experience. This portal allows service providers to easily manage and showcase their offerings to potential clients."
+                />
+              </p>
+              <div className="eins-modal-text-2">
+                <span>Link:</span>{" "}
+                <a href="https://www.fxkillers.mx/" target="_blank">
+                  fxkillers.mx
+                </a>
+              </div>
+              <div className="eins-modal-text-3">
+                <span>
+                  <FormattedMessage
+                    id="projects-tec"
+                    defaultMessage="Used technology:"
+                  />
+                </span>
+                <div className="eins-modal-tec">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/tailwindcss/tailwindcss-original.svg"
+                    alt=""
+                  />
+                  <img
+                  className="icon-nextjs"
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/nextjs/nextjs-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/typescript/typescript-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/vitejs/vitejs-original.svg"
+                    alt=""
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/react/react-original.svg"
                     alt=""
                   />
                 </div>
