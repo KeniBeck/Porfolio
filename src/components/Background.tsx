@@ -11,16 +11,19 @@ export default function AnimatedBackground({
                 className="
           absolute
           left-1/2
-          -top-62.5
+          -top-75
           h-200
           w-200
           -translate-x-1/2
-          rounded-full
-          blur-[180px]
-          opacity-40
+          blur-[80px]
+          opacity-50
         "
                 style={{
-                    backgroundColor: glowColor,
+                    background: `radial-gradient(
+                    circle,
+                    ${glowColor} 0%,
+                    transparent 100%
+                    )`,
                 }}
             />
         </div>

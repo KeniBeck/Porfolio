@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotateBorder {
+    to {
+        --angle: 360deg;
+    }
+}
+
+.snake-rotate {
+    animation: rotateBorder 3s linear infinite;
+}

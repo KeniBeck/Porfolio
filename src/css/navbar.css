@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&display=swap');
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.navbar-wrap {
+    position: relative;
+    border-radius: 9999px;
+}
+
+/* ── Borde serpiente ── */
+.snake-border {
+    position: absolute;
+    inset: -2px;
+    border-radius: 9999px;
+    padding: 2px;
+    background: conic-gradient(from var(--angle),
+            transparent 0%,
+            transparent 20%,
+            #60a5fa 35%,
+            #a78bfa 45%,
+            #f0abfc 50%,
+            #a78bfa 55%,
+            #60a5fa 65%,
+            transparent 80%,
+            transparent 100%);
+
+    /* vendor prefix primero, luego el estándar */
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+
+    /* ✅ propiedad estándar */
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+
+    animation: rotateBorder 3s linear infinite;
+}
+
+@keyframes rotateBorder {
+    to {
+        --angle: 360deg;
+    }
+}
+
+/* ── Fondo glass ── */
+.navbar-inner {
+    display: flex;
+    align-items: center;
+    padding: 14px 28px;
+    gap: 4px;
+    border-radius: 9999px;
+    background: rgba(8, 8, 18, 0.6);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow:
+        0 0 30px rgba(37, 99, 235, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    font-family: 'Syne', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+/* ── Logo ── */
+.nav-brand {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.05em;
+    padding: 4px 10px;
+    margin-right: 8px;
+    text-decoration: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ── Links ── */
+.nav-link {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 9999px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.nav-link.active {
+    color: #fff;
+    background: rgba(96, 165, 250, 0.12);
+}
