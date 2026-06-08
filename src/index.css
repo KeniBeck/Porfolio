@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotateBorder {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-5px);
+    }
+
+    35% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+
+    65% {
+        transform: translateY(0);
+    }
+
+    80% {
+        transform: translateY(-2px);
+    }
+
+    92% {
+        transform: translateY(0);
+    }
+}
+
+.bounce-animation {
+    animation: bounce 5s infinite;
+}
+
+.snake-rotate {
+    animation: rotateBorder 3s linear infinite;
+}
