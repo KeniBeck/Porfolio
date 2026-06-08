@@ -7,45 +7,67 @@
 }
 
 @keyframes rotateBorder {
-    to {
-        --angle: 360deg;
-    }
+    to { --angle: 360deg; }
 }
 
 @keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
+    0%, 100% { transform: translateY(0); }
+    20% { transform: translateY(-5px); }
+    35% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+    65% { transform: translateY(0); }
+    80% { transform: translateY(-2px); }
+}
 
-    20% {
-        transform: translateY(-5px);
-    }
+@keyframes arrowBounce {
+    0%, 100% { transform: translateY(0); opacity: 0.6; }
+    50% { transform: translateY(8px); opacity: 1; }
+}
 
-    35% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-4px);
-    }
-
-    65% {
-        transform: translateY(0);
-    }
-
-    80% {
-        transform: translateY(-2px);
-    }
-
-    92% {
-        transform: translateY(0);
-    }
+@keyframes particleDust {
+    0%   { opacity: 0; transform: translate(var(--ox), var(--oy)) scale(0.3); }
+    15%  { opacity: 1; }
+    100% { opacity: 0; transform: translate(calc(var(--ox) + var(--dx)), calc(var(--oy) + var(--dy))) scale(0); }
 }
 
 .bounce-animation {
     animation: bounce 5s infinite;
 }
 
+.arrow-bounce {
+    animation: arrowBounce 2s ease-in-out infinite;
+}
+
 .snake-rotate {
     animation: rotateBorder 3s linear infinite;
+}
+
+/* ── Botón con glow azul espacial brillante ── */
+.btn-glow {
+    box-shadow:
+        0 0 6px rgba(96, 165, 250, 0.25),
+        0 0 20px rgba(96, 165, 250, 0.08),
+        inset 0 0 12px rgba(96, 165, 250, 0.04);
+    border-color: rgba(96, 165, 250, 0.35);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.btn-glow:hover {
+    box-shadow:
+        0 0 12px rgba(96, 165, 250, 0.5),
+        0 0 40px rgba(96, 165, 250, 0.15),
+        inset 0 0 20px rgba(96, 165, 250, 0.08);
+    border-color: rgba(96, 165, 250, 0.6);
+}
+
+/* ── Partículas polvo estelar (desde los bordes) ── */
+.btn-particle {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 0;
+}
+.btn-glow:hover .btn-particle {
+    animation: particleDust var(--dur, 1.2s) ease-out infinite;
+    animation-delay: var(--delay, 0s);
 }

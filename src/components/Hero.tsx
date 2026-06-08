@@ -2,6 +2,8 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineDownload } from "react-icons/hi";
 import cvPdf from "../docs/cv_2026.pdf";
 import FloatingTech from "./FloatingTech";
+import DustParticles from "../utils/DustParticles";
+import { PiArrowCircleDown } from "react-icons/pi";
 
 const chips = ["React", "Node.js", "TypeScript", "3+ años de experiencia"];
 
@@ -9,7 +11,7 @@ const stats = [
   { num: "3+", label: "Años de exp." },
   { num: "4+", label: "Proyectos" },
   { num: "10+", label: "Clientes" },
-];
+ ];
 
 export default function Hero() {
   return (
@@ -20,7 +22,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-7xl font-bold text-white mb-4">
           ¡Hola!, Soy <span className="text-blue-400">Deyler Mena</span>
         </h1>
-        <p className="text-lg md:text-2xl text-gray-400 mb-5">
+        <p className="text-lg md:text-2xl text-gray-300 mb-5">
           Full-stack developer
         </p>
 
@@ -32,7 +34,7 @@ export default function Hero() {
               style={{
                 background: "rgba(255,255,255,0.06)",
                 border: "0.5px solid rgba(255,255,255,0.12)",
-                color: "rgba(255,255,255,0.65)",
+                color: "rgba(255,255,255,0.8)",
               }}
             >
               {chip}
@@ -59,9 +61,10 @@ export default function Hero() {
             href="https://github.com/KeniBeck"
             target="_blank"
             rel="noopener noreferrer"
-            className="group px-8 py-3 border border-gray-600 text-gray-300 rounded-2xl font-medium transition-all duration-300 hover:border-blue-400 hover:text-white hover:shadow-[0_0_20px_rgba(96,165,250,0.3)]"
+            className="group relative btn-glow px-8 py-3 border text-gray-200 rounded-2xl font-medium"
           >
-            <span className="flex items-center gap-2">
+            <DustParticles />
+            <span className="relative z-10 flex items-center gap-2">
               <FaGithub />
               GitHub
             </span>
@@ -84,13 +87,18 @@ export default function Hero() {
               </div>
               <div
                 className="text-[11px]"
-                style={{ color: "rgba(255,255,255,0.38)" }}
+                style={{ color: "rgba(255,255,255,0.55)" }}
               >
                 {stat.label}
               </div>
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Bouncing arrow */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 arrow-bounce">
+        <PiArrowCircleDown  className="text-blue-400/70 size-8" />
       </div>
     </section>
   );
