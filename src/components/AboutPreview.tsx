@@ -90,7 +90,7 @@ export default function AboutPreview() {
               <div className="ap-avatar">
                 <img
                   className="w-full h-full rounded-full object-cover"
-                  src="https://github.com/KeniBeck.png"
+                  src="src/assets/avatar.jpg"
                   alt="Deyler Mena"
                 />
               </div>
